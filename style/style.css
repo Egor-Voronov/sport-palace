@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+@import url(https://allfont.ru/allfont.css?fonts=rodchenkoctt);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    overflow-x: hidden; 
+    /* overflow-y: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.anchor {
+    position: fixed;
+}
+
+header{
+    position:absolute;
+    width: 100vh;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.664);
+    left: 50vw;
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 1;
+}
+
+.head {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    font-size: 5vh;
+    font-weight:900;
+    top: 4vh;
+    padding-left: 5vh;
+    cursor: pointer;
+    
+}
+
+.head1 {
+    color: black;
+}
+
+#login {
+    position: absolute;
+    width: 20vw;
+    height: 46vh;
+    border: #C4431A solid 0.5vh;
+    left: 156.5vh;
+    top: 15vh;
+    background-color: #f7fce6;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    z-index: 1;
+}
+
+#login:target {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+}
+
+.padding {
+    padding-bottom: 2vh;
+}
+
+.input1 {
+    padding-top: 2vh;
+}
+
+.input2 {
+    background-color: #f7fce6;
+    display: block;
+    border: 1px solid #C4431A;
+    border-width: 0px 0px 2px 0px;
+    font-family: 'Inter', sans-serif;;
+    font-size: 3vh;
+    font-weight: 500;
+    width: 70%;
+    margin: auto;
+    padding-bottom: -10vh;
+}
+
+.input2 .input2:active, .input2:hover, .input2:focus  {
+    outline: none;
+    border: 1px solid #f7fce6;;
+    border-width: 0px 0px 2px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.input2::-webkit-input-placeholder {
+    color: #C4431A;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vh;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.menu {
+    font-family: 'Inter', sans-serif;
+    font-size: 2vh;
+    background-color: #f7fce6;;
+    color: black;
+    width: 12vh;
+    height: 5vh;
+    cursor: pointer;
+    border: .5vh solid #C4431A;
+    position: relative;
+    left: 20vh;
+}
+
+.logo {
+    display: relative;
+    width: 13vh;
+    height: 14vh;
+    margin-left: 5vh;
+    margin-top: 1vh;
+}
+
+.palace {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    display: block;
+    z-index: -1;
+}
+
+.main-text {
+    position: relative;
+    display: block;
+    width: 140vh;
+    height: 25vh;
+    left: 5vw;
+    top: 43vh;
+}
+
+#go {
+    position: absolute;
+    display: inline-block;
+    width: 17%;
+    height: 13vh;
+    top: 86vh;
+    left: 156vh;
+    border: solid black 0.7vh;
+    background-color: #C4431A;
+    cursor: pointer;
+}
+
+#go:hover {
+    border: solid #C4431A 0.7vh;
+    background-color: #f7fce6;
+}
+
+.more {
+    position: absolute;
+    width: 20vh;
+    top: 90vh;
+    left: 163vh;
+    pointer-events: none;
+}
+
+/* #go {
+    position: absolute;
+    display: inline-block;
+    width: 23%;
+    height: 16vh;
+    top: 92vh;
+    left: 81vh;
+    border: solid black 0.7vh;
+    background-color: #C4431A;
+    cursor: pointer;
+}
+
+#go:hover {
+    border: solid #C4431A 0.7vh;
+    background-color: #f7fce6;
+}
+
+.more {
+    position: absolute;
+    width: 35vh;
+    top: 96vh;
+    left: 86.5vh;
+    pointer-events: none;
+} */
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.section1 {
+
+}
+
+#line {
+    position: relative;
+    width: 30vw;
+    left: -1vh;
+}
+
+#faster {
+    width: 60vw;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    height: 90vh
+}
+
+#suprimatic {
+    position: absolute;
+    transform: rotate(-5.5deg);
+    left: -5vh;
+    margin-top: 7vh;
+    width: 55vw;
+    height: 130vh;
+}
+
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.overflow {
+    overflow-y: hidden; 
+}
+
+#stadia {
+    top: 41vh;
+    left: 55.9vh;
+    position: relative;
+    width: 150vh;
+    height: 25vh;
+    overflow-y: hidden
+}
+
+.p1 {
+    width: 100vh;
+    position: relative;
+    margin-top: 70vh;
+    left: -25vh;
+    overflow-y: hidden
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 3vh;
+    font-weight: 600;
+    overflow-y: hidden
+}
+
+.sec3 {
+    margin-top:5vh;
+}
+
+.up {
+    margin: auto;
+    height: 100vh;
+    width: 90vw;
+    object-fit: fill;
+}
+
+.living {
+    margin-top: 55vh;   
+}
+
+.living-square1 {
+  position: relative;
+  left: 20vh;
+}
+
+.pool-sec {
+    overflow-y: hidden
+}
+
+.pool {
+    position: relative;
+    margin-top: 15vh;
+    width: 120vh;
+    height: 100vh;
+    left: 38.5vh;
+    overflow-y: hidden;
+}
+
+.session {
+    position: relative;
+    left: 15vh;
+    width: 85vw;
+    margin-top: 15vh;
+    background-color: #C4431A;
+}
+
+.trainers {
+    position: absolute;
+    height: 25vh;
+    width: 100vh;
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+
+.cards {
+    position: relative;
+}
+
+.card {
+    left: 5vh;
+    position: relative;
+    width: 40vh;
+    height: 35vh;
+    background-color: #F8FCE6;
+    margin-left: 10vh;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.card1 {
+   top: 50vh;
+   padding-top: 1vh;
+   padding-left: 12vh;
+}
+
+.card2 {
+    top: 50vh;
+ }
+
+ .card3 {
+    top: 50vh;
+ }
+
+ .peasant {
+     width: 15vh;
+     height: 13vh;
+ }
+
+ .card-txt {
+     position: absolute;
+     text-align: center;
+     left: 7vh;
+     line-height: 5vh;
+ }
+
+ .more2 {
+    position: relative;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #C4431A;
+    font-size: 3vh;
+    font-weight: 600;
+    overflow-y: hidden;
+    top: 15vh;
+    left: 4vh;
+    cursor: pointer;
+ }
+
+ .card2 {
+    top: 50vh;
+    padding-top: 3vh;
+    padding-left: 15vh;
+ }
+
+ .square {
+     width: 10vh;
+     height: 10vh;
+ }
+
+ .card-txt2 {
+    position: absolute;
+    text-align: center;
+    top: 14.5vh;
+    left: 4.5vh;
+    line-height: 5vh;
+}
+
+.more3 {
+    position: relative;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #C4431A;
+    font-size: 3vh;
+    font-weight: 600;
+    overflow-y: hidden;
+    top: 15.5vh;
+    left:1vh;
+    cursor: pointer;
+ }
+
+ .woman {
+    width: 12vh;
+    height: 13vh;
+ }
+
+ .card3 {
+    top: 50vh;
+    padding-top: 1vh;
+    padding-left: 13vh;
+ }
+
+
+ .card-txt3 {
+    position: absolute;
+    text-align: center;
+    top: 14.5vh;
+    left: 5vh;
+    line-height: 5vh;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15vh;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.hh4 {
+    position: relative;
+    left: 10vh;
+    width: 170vh;
+}
+
+#popup1 {
+    overflow-y: hidden; 
+    top: 45vh;
+    left: 10vh;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#popup1:target {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+    
+}
+
+.coach {
+    position: relative;
+    left: 70vh;
+    width: 45vh;
+    height: 45vh;
+}
+
+
+#popup2 {
+    overflow-y: hidden; 
+    top: 45vh;
+    left: 10vh;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#popup2:target {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+    
+}
+
+#popup3 {
+    overflow-y: hidden; 
+    top: 45vh;
+    left: 10vh;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+#popup3:target {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;   
+}
+
+.close{
+    display: block;
+    position: relative;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 3vh;
+    top: 7vh;
+    left: 85vw;
+}
+
+.news-sec {
+    margin-top: 15vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.news {
+    position: relative;
+    width: 70Vh;
+    height: 20vh;
+    left: 65vh;
+}
+
+nav {
+    
+    top: 30vh;
+    left: -30vh;
+    position: relative;
+    width: 7vw;
+    height: 40vh;
+    background-color: #C4431A;
+    writing-mode: vertical-rl;
+    text-orientation: upright; 
+    padding-right: 5vh;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 10vh;
+    font-weight: 900;
+    z-index: 1;
+}
+
+marquee {
+    height: 40vh;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
